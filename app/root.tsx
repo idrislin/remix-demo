@@ -23,6 +23,7 @@ export default function App() {
         <Links />
       </head>
       <body>
+        <div id="sidebar">{/* other elements */}</div>
         <Outlet />
         <ScrollRestoration />
         <Scripts />
